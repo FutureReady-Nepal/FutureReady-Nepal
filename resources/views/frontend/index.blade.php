@@ -11,7 +11,7 @@
                             <span>We are new but doing great</span>
                             <h1 data-animation="fadeInUp" data-delay=".2s">Beyond borders, beyond limits - study abroad with us.</h1>
                             <p data-animation="fadeInUp" data-delay=".6s">We're very excited to have you here!<br>We've shared all our services below.<br> We hope you enjoy our services.</p>
-                            <a href="" class="btn hero-btn" data-animation="fadeInUp" data-delay="1s">Explore Us</a>
+                            <a href="{{url('/services')}}" class="btn hero-btn" data-animation="fadeInUp" data-delay="1s">Explore Our Services.</a>
                         </div>
                         <div class="hero-img position-relative">
                             <img src="{{ url('img/frontpage.jpg') }}" alt="" data-animation="fadeInRight"
@@ -43,9 +43,9 @@
                                 <img src="assets/img/icon/services1.svg" alt="">
                             </div>
                             <div class="cat-cap">
-                                <h5><a href="#">University Shortlisting Based On Your Profile</a></h5>
+                                <h5><a href="{{url('/service1')}}">University Shortlisting Based On Your Profile</a></h5>
                                 <p>Selecting the right universities is a very critical and tedious process. It can determine your total acceptance, scholarship, VISA approval chances, and many more. We'll be able to help you with university selection based on your profi le and course. This service saves precious time and gets you into the best university your profi le deserves. If you have a great profi le, you could also get a scholarship.</p>
-                                <a href="#" class="browse-btn">Read More.</a>
+                                <a href="{{url('/service1')}}" class="browse-btn">Know More.</a>
                             </div>
                         </div>
                     </div>
@@ -55,9 +55,9 @@
                                 <img src="assets/img/icon/services2.svg" alt="">
                             </div>
                             <div class="cat-cap">
-                                <h5><a href="#">Bachelor's Essay / Master's SOP Writing</a></h5>
+                                <h5><a href="{{url('/service2')}}">Bachelor's Essay / Master's SOP Writing</a></h5>
                                 <p>Writing a College Essay / SOP can seem like a daunting task, but it doesn't for us! We have a highly qualifi ed and dedicated team to write your College Essay / SOP / Personal Statement. Everyone has some kind of story or life experience, and we will help to convey your stories to your university admission counselor. The SOP is one of the essential parts of your application process because it helps the admissions committee know your interests and experiences. It can convert your normal admission to admission with a scholarship.</p>
-                                <a href="#" class="browse-btn">Read More.</a>
+                                <a href="{{url('/service2')}}" class="browse-btn">Know More.</a>
                             </div>
                         </div>
                     </div>
@@ -67,9 +67,9 @@
                                 <img src="assets/img/icon/services3.svg" alt="">
                             </div>
                             <div class="cat-cap">
-                                <h5><a href="#">Letter of Recommendation draft</a></h5>
+                                <h5><a href="{{url('/service3')}}">Letter of Recommendation draft</a></h5>
                                 <p>This document can get you good acceptance and scholarship; very few recommenders write LOR from scratch, and most of them ask you for a LOR draft. Here we will draft a unique LOR based on your relation with your recommender, and your professor or manager's perspective.</p>
-                                <a href="#" class="browse-btn">Read More.</a>
+                                <a href="{{url('/service3')}}" class="browse-btn">Know More.</a>
                             </div>
                         </div>
                     </div>
@@ -79,9 +79,9 @@
                                 <img src="assets/img/icon/services3.svg" alt="">
                             </div>
                             <div class="cat-cap">
-                                <h5><a href="#">Statement of Purpose/ Essay Review</a></h5>
+                                <h5><a href="{{url('/service4')}}">Statement of Purpose/ Essay Review</a></h5>
                                 <p>If you are looking into this service, then you are the one who has written their Essay / SOP. You must be thinking, What do we provide to people like you? Well, everyone thinks their written draft is best and correct, but you need a second perspective. So, here we come into the picture; we review your Essay/ SOP draft. What we do in the review process is explained below.</p>
-                                <a href="#" class="browse-btn">Let's Talk</a>
+                                <a href="{{url('/service4')}}" class="browse-btn">Know More.</a>
                             </div>
                         </div>
                     </div>
@@ -91,9 +91,9 @@
                                 <img src="assets/img/icon/services3.svg" alt="">
                             </div>
                             <div class="cat-cap">
-                                <h5><a href="#">F-1 VISA process help</a></h5>
+                                <h5><a href="{{url('/service5')}}">F-1 VISA process help</a></h5>
                                 <p>Congratulations! on your acceptance to your dream university. If you are looking into this service, you must have your i-20 document. After you receive your i-20 document, the most important and tricky part starts, i.e., applying for a VISA interview. We make this tricky part easy for you. We help in the whole VISA process from DS-160 filling to Interview Preparation.</p>
-                                <a href="#" class="browse-btn">Let's Talk</a>
+                                <a href="{{url('/service5')}}" class="browse-btn">Know More.</a>
                             </div>
                         </div>
                     </div>
@@ -103,9 +103,9 @@
                                 <img src="assets/img/icon/services3.svg" alt="">
                             </div>
                             <div class="cat-cap">
-                                <h5><a href="#">Complete Process help for Bachelor and Master</a></h5>
+                                <h5><a href="{{url('/service6')}}">Complete Process help for Bachelor and Master</a></h5>
                                 <p>This service is in high demand for those who have yet to learn how to start for USA application process. Here, we will take care of everything, and you need to fill out some questionnaire forms, and our team will do the rest.</p>
-                                <a href="#" class="browse-btn">Let's Talk</a>
+                                <a href="{{url('/service6')}}" class="browse-btn">Know More.</a>
                             </div>
                         </div>
                     </div>
@@ -308,7 +308,7 @@
 
 
         <section class="testimonial-area section-padding section-img-bg"
-            data-background="assets/img/gallery/section-bg1.jpg">
+            data-background="{{url('img/gallery/section-bg1.jpg')}}">
             <div class="container">
                 <div class="row justify-content-end">
                     <div class="col-xl-7 col-lg-8 col-md-11 ">

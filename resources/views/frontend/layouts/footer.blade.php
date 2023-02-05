@@ -46,11 +46,17 @@
                         <div class="single-footer-caption mb-50">
                             <div class="footer-tittle">
                                 <h4>Services</h4>
-                                <ul>
-                                    <li><a href="#">Blackforest</a></li>
-                                    <li><a href="#">Bodhubon</a></li>
-                                    <li><a href="#">Rongdhonu</a></li>
-                                    <li><a href="#">Meghrong</a></li>
+                                <ul class="list cat-list">
+                                    <li><a href="{{ url('/service1') }}">University
+                                            Shortlisting</a></li>
+                                    <li><a href="{{ url('/service2') }}">Master's SOP
+                                            Writing</a></li>
+                                    <li><a href="{{ url('/service3') }}">LOR Draft</a></li>
+                                    <li><a href="{{ url('/service4') }}">SOP Review</a></li>
+                                    <li><a href="{{ url('/service5') }}">F-1 Visa Process
+                                            Help</a></li>
+                                    <li><a href="{{ url('/service6') }}">Complete Process
+                                            Help</a></li>
                                 </ul>
                             </div>
                         </div>

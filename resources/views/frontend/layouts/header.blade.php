@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Startup | Template</title>
+    <title>Future Ready Nepal</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="manifest" href="site.webmanifest">
@@ -110,19 +110,19 @@
                                             <li><a href="{{ url('/') }}">Home</a></li>
                                             <li><a href="{{ url('/about') }}">About</a></li>
                                             <li><a href="{{ url('/services') }}">Services</a></li>
-                                            <li><a href="#">Blog</a>
+                                            {{-- <li><a href="#">Blog</a>
                                                 <ul class="submenu">
                                                     <li><a href="blog.html">Blog</a></li>
                                                     <li><a href="blog_details.html">Blog Details</a></li>
                                                     <li><a href="elements.html">Element</a></li>
                                                 </ul>
-                                            </li>
+                                            </li> --}}
                                             <li><a href="{{ url('/contact') }}">Contact</a></li>
 
-                                            <li class="button-header">
+                                            {{-- <li class="button-header">
                                                 <a href="login.html" target="_blank" class="btn_0 header-btn">Join
                                                     Us</a>
-                                            </li>
+                                            </li> --}}
                                         </ul>
                                     </nav>
                                 </div>

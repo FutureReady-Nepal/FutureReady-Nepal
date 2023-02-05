@@ -2502,8 +2502,15 @@ li {
 }
 .blog_right_sidebar .post_category_widget .cat-list li a {
     font-size: 14px;
+    font-weight: 500;
     line-height: 20px;
     color: #888888;
+}
+.blog_right_sidebar .post_category_widget .cat-list li a:hover {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #29B3EB;
 }
 .blog_right_sidebar .post_category_widget .cat-list li a p {
     margin-bottom: 0px;

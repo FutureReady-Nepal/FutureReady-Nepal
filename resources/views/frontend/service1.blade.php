@@ -141,46 +141,7 @@
 
                     </div>
                     <div class="col-xl-4">
-                        <div class="blog_right_sidebar  mb-60">
-                            <div class="single_sidebar_widget post_category_widget white-bg-2 border-radius-6 mb-60">
-                                <div class="widget_title mb-25">
-                                    <h4>Our Services</h4>
-                                </div>
-                                <ul class="list cat-list">
-                                    <li><a href="{{url('/service1')}}">University
-                                            Shortlisting</a></li>
-                                    <li><a href="{{url('/service2')}}">Master's SOP
-                                            Writing</a></li>
-                                    <li><a href="{{url('/service3')}}">LOR Draft</a></li>
-                                    <li><a href="{{url('/service4')}}">SOP Review</a></li>
-                                    <li><a href="{{url('/service5')}}">F-1 Visa Process
-                                            Help</a></li>
-                                    <li><a href="{{url('/service6')}}">Complete Process
-                                            Help</a></li>
-                                </ul>
-                            </div>
-                            {{-- <div class="sidebar__widget white-bg-2 border-radius-6">
-                                <div class="sidebar-title mb-25">
-                                    <h4>Quick Contact</h4>
-                                </div>
-                                <div class="contact-form">
-                                    <form action="#">
-                                        <div class="bd-single__input mb-20">
-                                            <input type="text" placeholder="Your Name">
-                                        </div>
-                                        <div class="bd-single__input mb-20">
-                                            <input type="email" placeholder="Email Address">
-                                        </div>
-                                        <div class="bd-single__input mb-20">
-                                            <textarea name="message" id="message" placeholder="Your Message"></textarea>
-                                        </div>
-                                        <div class="bd-single__input">
-                                            <button type="submit" class="theme-btn">Make An Order</button>
-                                        </div>
-                                    </form>
-                                </div>
-                            </div> --}}
-                        </div>
+                        @include('frontend.layouts.sidebar')
                     </div>
                 </div>
             </div>

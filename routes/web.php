@@ -11,6 +11,8 @@ use App\Http\Controllers\frnwebsite\Service3Controller;
 use App\Http\Controllers\frnwebsite\Service4Controller;
 use App\Http\Controllers\frnwebsite\Service5Controller;
 use App\Http\Controllers\frnwebsite\Service6Controller;
+use App\Http\Controllers\admin\DashboardController;
+use App\Http\Controllers\Home1Controller;
 
 /*
 |--------------------------------------------------------------------------
@@ -39,3 +41,11 @@ Route::get('/service5',[Service5Controller::class , 'index']);
 Route::get('/service6',[Service6Controller::class , 'index']);
 Route::get('/about',[AboutController::class , 'index']);
 Route::get('/contact',[ContactController::class , 'index']);
+
+Route::prefix('admin')->middleware(['auth' , 'isAdmin'])->group(function(){
+    Route::get('/dashboard',[DashboardController::class , 'index']);
+});
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\Home1Controller::class, 'index'])->name('home');
